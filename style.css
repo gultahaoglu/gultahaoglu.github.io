@@ -1,0 +1,12 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+body { margin: 0; line-height: 1.6; }
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
+.hero { display: flex; gap: 18px; align-items: center; }
+.avatar { width: 88px; height: 88px; border-radius: 16px; object-fit: cover; }
+.nav { display: flex; gap: 14px; margin-top: 14px; flex-wrap: wrap; }
+.nav a { text-decoration: none; padding: 8px 10px; border-radius: 10px; border: 1px solid #ddd; color: inherit; }
+section { padding: 18px 0; border-top: 1px solid #eee; scroll-margin-top: 18px; }
+.card { border: 1px solid #eee; border-radius: 14px; padding: 14px; }
+.news { padding-left: 18px; }
+.date { display: inline-block; min-width: 72px; font-weight: 600; }
+.footer { border-top: 1px solid #eee; margin-top: 24px; padding-top: 18px; }
